@@ -5,7 +5,7 @@ import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import Favorites from "../pages/Favorites";
 import ForgetPassword from "../pages/ForgetPassword";
-import ProtectedRoute from "../components/ProtectedRoute";
+import ProtectedRoute from "./ProtectedRoute";
 
 const appRoutes = [
   {
@@ -67,3 +67,4 @@ const appRoutes = [
 ];
 
 export default appRoutes;
+
